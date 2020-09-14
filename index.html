@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PracticeD3</title>
+</head>
+
+<body>
+
+    <svg width="600" height="400" style="border:1px solid black">
+ <rect x=0 y=0 width="300" height="300" style="fill:#afafaf;"></rect>
+ <circle cx="150" cy="150" r="100" fill="blue"></circle>
+ <line x1="150" y1="50" x2="150" y2="250" stroke="red" stroke-width="3"></line>
+ <text x="100" y="30" font-size="30" fill="green">vincent</text>
+</svg>
+    <svg width="600" height="400" style="border: 1px solid black" id="painter">
+  <rect width="50" height="50" fill="#afafaf" id="foo"></rect>
+  <rect width="50" height="50" fill="#afafaf" x="100"></rect>
+  <rect width="50" height="50" fill="#afafaf" x="200" class="bar"></rect>
+</svg>
+    <p></p>
+    <p></p>
+    <p></p>
+    <svg width="600" height="400" style="border: 1px solid black" id="painter1"></svg>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
+    <script src="MyD3.js"></script>
+</body>
+
+</html>
